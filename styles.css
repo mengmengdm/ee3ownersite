@@ -1,0 +1,77 @@
+.nav-tabs {
+    border-bottom: 2px solid #dee2e6;
+}
+
+.nav-tabs .nav-link {
+    color: #6c757d;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #0d6efd;
+    border: none;
+}
+
+.nav-tabs .nav-link.active {
+    color: #0d6efd;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #0d6efd;
+}
+
+.order-card {
+    margin-bottom: 1rem;
+    border-left: 4px solid #0d6efd;
+}
+
+.order-header {
+    background-color: #f8f9fa;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.order-body {
+    padding: 1rem;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.order-item span:first-child {
+    font-weight: bold;
+}
+
+.order-actions {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.status-badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+}
+
+.status-pending {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.status-completed {
+    background-color: #198754;
+    color: #fff;
+}
+
+.tab-content {
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-top: none;
+    border-radius: 0 0 0.25rem 0.25rem;
+} 
